@@ -1,0 +1,7 @@
+Changes
+MANIFEST			This list of files
+MANIFEST.SKIP
+Makefile.PL
+lib/Mail/Message/Attachment/Stripper.pm
+t/01.t
+t/Mail/attached
