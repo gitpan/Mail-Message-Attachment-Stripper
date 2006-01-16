@@ -58,4 +58,5 @@ is $folder->messages, 2, "Found 1 messages";
 	is $att->{filename}, "", "With no name";
 }
 
+$folder->close(write => 'NEVER');
 

@@ -3,7 +3,7 @@ package Mail::Message::Attachment::Stripper;
 use strict;
 use warnings;
 
-our $VERSION = '1.0';
+our $VERSION = '1.01';
 
 use Carp;
 
@@ -137,5 +137,25 @@ sub _filename_for {
 		|| ($type && $type->attribute("name"))
 		|| "";
 }
+
+=head1 BUGS and QUERIES
+
+Please direct all correspondence regarding this module to:
+  bug-Mail-Message-Attachment-Stripper@rt.cpan.org
+
+=head1 COPYRIGHT AND LICENSE
+
+  Copyright (C) 2002-2005 Kasei
+
+  This program is free software; you can redistribute it and/or modify it under
+  the terms of the GNU General Public License; either version 2 of the License,
+  or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but WITHOUT
+  ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.
+
+=cut
+
 
 1;
